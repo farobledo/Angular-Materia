@@ -1,0 +1,25 @@
+main {
+   width: 100%;
+   margin-top: 2rem;
+   text-align: center;
+}
+
+mat-card, app-photos {
+   margin: auto;
+   width: 35%;
+   display: block;
+   margin-top: 2rem;
+}
+
+h1{
+   color: white;
+   width: 100%;
+   margin-top: 1srem;
+   text-align: center;
+   
+}
+
+mat-form-field, input {
+   width: 100%;
+}
+

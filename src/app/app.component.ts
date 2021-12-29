@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PhotosService } from './services/photos.service';
+import { Photo } from './models/Photo';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular-Materia';
+
+  albumsId = [1,2,3];
+
+  constructor(public photosService: PhotosService){}
+
+   
 }
